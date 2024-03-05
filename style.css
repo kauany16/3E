@@ -27,7 +27,7 @@ body{
     color: var(--branco);
 }
 .botao{
-    font-family: "Oswald", sans-serif;
+    font-family: "Oswald",sans-serif;
     background-color: var(--cor-de-icones);
     color: var(--branco);
     display: flex;
