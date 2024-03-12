@@ -21,7 +21,7 @@ body{
 .tirulo-principal{
     text-align: left;
     width: 100%;
-    font-size: 35px;
+    font-size: 32px;
 }
 .tirulo-principal span{
     color: var(--branco);
@@ -36,6 +36,7 @@ body{
     width: 100%;
     border-bottom: 4px solid var(--cor-de-icones);
     border-left: 2px solid var(--cor-de-icones);
+    border-right: 2px solid var(--cor-de-icones);
     border-top: none;
 }
 .botao:first-child{
