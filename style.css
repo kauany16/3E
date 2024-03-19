@@ -33,17 +33,18 @@ body{
     display: flex;
     justify-content: center;
     padding: 1em;
+    font-size: 18px;
+    aling-items: center;
     width: 100%;
-    border-bottom: 4px solid var(--cor-de-icones);
-    border-left: 2px solid var(--cor-de-icones);
-    border-right: 2px solid var(--cor-de-icones);
-    border-top: none;
+    border-bottom: 4px solid var(--botao-ativo);
+    border-left: 2px solid var(--botao-ativo);
+    border-right: 2px solid var(--botao-ativo);
 }
 .botao:first-child{
     border-radius: 40px 40px 40px 0 0;
 }
 .ativo{
-    background-color: var(--cor-de-iconesa);
+    background-color: var(--botao-ativo);
     border-bottom: 4px solid var(--vermelho-claro);
 }
 .botoes{
