@@ -44,6 +44,7 @@ body{
 }
 .ativo{
     background-color: var(--cor-de-iconesa);
+    border-bottom: 4px solid var(--vermelho-claro);
 }
 .botoes{
     display: block;
