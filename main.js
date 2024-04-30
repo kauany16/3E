@@ -1,9 +1,9 @@
 const botoes = document.querySelectorAll(".botao");
 const textos = document.querySelectorAll(".aba-conteudo");
 
-for (let i = 0; i<botoes.length; i++) {
-    botoes [i].onclick = function(){
-        for(let j=0; j<botoes.length; j++){
+for (let i = 0; i <botoes.length; i++) {
+    botoes [i] .onclick = function(){
+        for(let j= 0; j <botoes.length; j++){
             botoes[j].classList.remove("ativo");
             textos[j].classList.remove("ativo");
         }
@@ -28,8 +28,8 @@ function calculaTempo(tempoObjetivo1){
    let tempoFinal = tempoObjetivo1 - tempoAtual;
    let segundos = Math.floor (tempoFinal - tempoFinal / 1000);
    let minutos = Math.floor(segunos / 60);
-   let horas = Math.floorr(hora / 60);
-   let dias = Math.floorr(horas / 24);
+   let horas = Math.floor(minutos/ 60);
+   let dias = Math.floor(horas / 24);
 
    sugundo %=60;
    minutos %=60
